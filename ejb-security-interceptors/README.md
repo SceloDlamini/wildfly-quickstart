@@ -69,7 +69,7 @@ Interceptors are ordered according to their assigned priority, which is `APPLICA
 - `ServiceLoader`-based interceptors from the class path
 - System-installed JBoss interceptors
 
-If after these rules apply, more than one interceptor are still of equal priority, then they are applied in declaration or encounter order.
+If after these rules apply, multiple interceptors are still of equal priority, then they are applied in declaration or encounter order.
 
 System requirements
 -------------------
